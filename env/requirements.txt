@@ -1,0 +1,32 @@
+# Pinned package versions for reproducibility.
+#
+# NB: MACE and SevenNet require slightly different e3nn versions
+# (MACE wants e3nn==0.4.4; SevenNet wants e3nn>=0.5.0). Run them in
+# separate venvs OR install MACE first (e3nn==0.4.4), then SevenNet
+# (which will upgrade e3nn to 0.6+, breaking MACE temporarily).
+#
+# ORB v3 (orb-models 0.5.5) pulls torch 2.11+CUDA 13 which conflicts
+# with mace-torch 0.3.15's torch 2.5+CUDA 12 baseline. Either separate
+# venvs, or set LD_LIBRARY_PATH to nvidia/cu13/lib for ORB and accept
+# pip dependency-resolver warnings.
+
+# Core scientific stack
+numpy>=2.0
+scipy>=1.10
+ase==3.28.0
+pymatgen>=2025.0
+wulffpack==1.5
+matplotlib>=3.10
+
+# PyTorch (CUDA 12.4)
+torch==2.5.1
+
+# MACE (use e3nn 0.4.4 for compatibility with MACE 0.3.15)
+mace-torch==0.3.15
+e3nn==0.4.4
+
+# SevenNet (use e3nn >=0.5.0; install in separate venv if MACE coexists)
+sevenn==0.12.1
+
+# ORB v3 (pulls torch 2.11+CUDA 13; install in separate venv if MACE coexists)
+orb-models==0.5.5

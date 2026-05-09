@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Foundation MLIP benchmark for β-Sn"
+message: "If you use this benchmark, please cite the source paper (in review)."
+type: software
+authors:
+  - family-names: Tatsumi
+    given-names: Hiroaki
+    affiliation: "Joining and Welding Research Institute, The University of Osaka"
+    email: tatsumi.jwri@osaka-u.ac.jp
+abstract: >-
+  Benchmark of three open-source universal foundation machine-learning
+  interatomic potentials (MACE-MPA-0, ORB v3, SevenNet-Omni) for β-Sn
+  (tetragonal I4₁/amd), focusing on bulk lattice, full elastic constant tensor,
+  surface energies of five low-index faces, equilibrium Wulff shapes, and
+  symmetry preservation under small strain. The protocol exactly matches
+  the source paper Tatsumi et al. (in review at MSMSE, 2026), which compared
+  DFT/PBE, four PFP modes, and three classical MEAM potentials. This
+  follow-up benchmark (foundation MLIPs) is by Tatsumi alone; the protocol
+  and reference values cited come from the source paper, whose full author
+  list is given under preferred-citation below.
+license: MIT
+preferred-citation:
+  type: article
+  title: "Comparison of Elastic Constants and Surface Energies of β-Sn"
+  authors:
+    - family-names: Tatsumi
+      given-names: Hiroaki
+    - family-names: Ito
+      given-names: Atsushi M.
+    - family-names: Takayama
+      given-names: Arimichi
+    - family-names: Nishikawa
+      given-names: Hiroshi
+  journal: "Modelling and Simulation in Materials Science and Engineering"
+  year: 2026
+  notes: "Submitted (in review)"

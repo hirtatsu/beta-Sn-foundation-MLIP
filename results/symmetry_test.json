@@ -1,0 +1,44 @@
+{
+  "protocol": "\u03b5_xx = +0.005 strain, atomic relax with cell fixed (LBFGS, fmax=0.001)",
+  "results": [
+    {
+      "method": "MACE-MPA-0",
+      "bulk_lattice": {
+        "a": 5.95716476829288,
+        "c": 3.205222218671665
+      },
+      "z_init": 0.24999999999999992,
+      "z_after_relax_eps_xx_005": 0.2540753593573894,
+      "delta_z": 0.0040753593573893965,
+      "energy_drift_meV_per_atom": -0.08285574492328251,
+      "n_steps_relax": 2,
+      "verdict": "preserved"
+    },
+    {
+      "method": "ORB v3",
+      "bulk_lattice": {
+        "a": 5.915674776157129,
+        "c": 3.257012033410066
+      },
+      "z_init": 0.2500023545497461,
+      "z_after_relax_eps_xx_005": 0.2695391578859912,
+      "delta_z": 0.0195391578859912,
+      "energy_drift_meV_per_atom": -0.5633251673513584,
+      "n_steps_relax": 6,
+      "verdict": "BROKEN"
+    },
+    {
+      "method": "SevenNet-Omni",
+      "bulk_lattice": {
+        "a": 5.9628855043591855,
+        "c": 3.2055149430980543
+      },
+      "z_init": 0.2500000000130952,
+      "z_after_relax_eps_xx_005": 0.2542654351420729,
+      "delta_z": 0.004265435142072893,
+      "energy_drift_meV_per_atom": -0.07772445678710938,
+      "n_steps_relax": 2,
+      "verdict": "preserved"
+    }
+  ]
+}

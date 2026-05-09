@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+*.so
+
+# Venvs
+mlip-env/
+.venvs/
+venv/
+env/.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Large artifacts (kept in Zenodo, not git)
+results/slabs_relaxed_*/
+results/slabs_input_*/
+results/*.log
+results/bulk_relax*.log
+*.cube
+*.tar.gz
+
+# Cache
+*.pkl
+.cache/
+
+# Output figures (regenerable from scripts)
+# (figures/*.png and figures/*.pdf are kept tracked for README.)
