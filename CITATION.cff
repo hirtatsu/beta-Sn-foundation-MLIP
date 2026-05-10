@@ -21,7 +21,7 @@ abstract: >-
 license: MIT
 preferred-citation:
   type: article
-  title: "Comparison of Elastic Constants and Surface Energies of β-Sn"
+  title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials"
   authors:
     - family-names: Tatsumi
       given-names: Hiroaki
@@ -34,3 +34,26 @@ preferred-citation:
   journal: "Modelling and Simulation in Materials Science and Engineering"
   year: 2026
   notes: "Submitted (in review)"
+references:
+  - type: article
+    title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials"
+    authors:
+      - family-names: Tatsumi
+        given-names: Hiroaki
+      - family-names: Ito
+        given-names: Atsushi M.
+      - family-names: Takayama
+        given-names: Arimichi
+      - family-names: Nishikawa
+        given-names: Hiroshi
+    journal: "Modelling and Simulation in Materials Science and Engineering"
+    year: 2026
+    notes: "Reference paper providing the DFT/PBE, PFP/PBE, PFP/PBE+D3 numbers and the experimental Cij reference (Rayne & Chandrasekhar 1960) used throughout this benchmark"
+  - type: software
+    title: "beta-Sn-DFT-PFP-MEAM — companion data and code repository"
+    authors:
+      - family-names: Tatsumi
+        given-names: Hiroaki
+    repository: "https://github.com/hirtatsu/beta-Sn-DFT-PFP-MEAM"
+    year: 2026
+    notes: "Source of the PFP and DFT reference data redistributed in results/pfp_reference/"
